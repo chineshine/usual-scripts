@@ -6,7 +6,7 @@ if($useCurrent){
     $workspace=Get-Location
 }
 if([String]::IsNullOrEmpty($workspace)){
-    throw "you should define the script workspace"
+    throw "you should define the workspace which script should work"
 }
 
 #Set-Location -Path $workspace
